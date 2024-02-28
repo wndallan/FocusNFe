@@ -1,0 +1,16 @@
+{
+    "name": "wndallan/focus-nfe",
+    "description": "Biblioteca em PHP para integrar a API FocusNFe",
+    "autoload": {
+        "psr-4": {
+            "FocusNfe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wendell Nascimento",
+            "email": "wndallan1@gmail.com"
+        }
+    ],
+    "require": {}
+}
