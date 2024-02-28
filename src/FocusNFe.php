@@ -73,7 +73,7 @@ class FocusNFe {
         $body = curl_exec($ch);
         $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 
-        return [ 'reponse' => $body, 'http_code' => $http_code];
+        return [ 'reponse' => json_decode($body, true), 'http_code' => $http_code];
 
     }
 
