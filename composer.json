@@ -1,4 +1,6 @@
 {
+    "version": "1.0",
+    "license": "MIT",
     "name": "wndallan/focus-nfe",
     "description": "Biblioteca em PHP para integrar a API FocusNFe",
     "autoload": {
