@@ -3,14 +3,14 @@
 require_once('../conf.php');
 require_once('../../vendor/autoload.php');
 
-use FocusNfe\ConsultaCNPJ;
+use FocusNfe\ConsultaCEP;
 
-$focusnfe = new ConsultaCNPJ();
+$focusnfe = new ConsultaCEP();
 
 $focusnfe->setTest(true);
 $focusnfe->setToken(TOKEN_PRINCIPAL);
 
-$res = $focusnfe->get('88888888888778');
+$res = $focusnfe->get('17603190');
 
 var_dump($res);
 
